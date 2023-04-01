@@ -9,7 +9,8 @@ const EditBudget = (props) => {
             <input
                 required='required'
                 type='number'
-                className='form-control mr-3'id='name'
+                className='form-control mr-3' 
+                id='name'
                 value={value}
                 onChange={(event) => setValue(event.target.value)}
             />
